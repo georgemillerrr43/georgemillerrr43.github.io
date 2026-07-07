@@ -1,0 +1,44 @@
+{
+  "name": "joji-portfolio",
+  "version": "2.0.0",
+  "description": "Joji - Freelance Digital Designer & IT Support Professional",
+  "type": "module",
+  "main": "src/js/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --fix",
+    "format": "prettier --write \"src/**/*.{js,css,html}\"",
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "owl-carousel2": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "vite": "^5.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "it-support",
+    "freelance",
+    "designer"
+  ],
+  "author": "Joji",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgemillerrr43/georgemillerrr43.github.io"
+  }
+}

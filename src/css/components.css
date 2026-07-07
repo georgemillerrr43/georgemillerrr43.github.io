@@ -1,0 +1,92 @@
+/* Header Styles */
+.header {
+  background-color: var(--color-white);
+  border-top: 4px solid var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-header);
+}
+
+.header-wrapper {
+  padding: var(--spacing-lg) 0;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.header-menu {
+  list-style: none;
+}
+
+.header-link {
+  color: var(--color-text-dark);
+  font-weight: 700;
+  transition: color var(--duration-fast) var(--ease-in-out);
+}
+
+.header-link:hover {
+  color: var(--color-primary);
+}
+
+.header-link.active {
+  color: var(--color-primary);
+}
+
+/* Footer Styles */
+.footer {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: var(--spacing-3xl) 0;
+  margin-top: auto;
+}
+
+.footer-menu {
+  list-style: none;
+}
+
+.footer-menu a {
+  color: var(--color-white);
+  transition: color var(--duration-fast) var(--ease-in-out);
+}
+
+.footer-menu a:hover {
+  color: var(--color-primary);
+}
+
+.link-hover {
+  transition: all var(--duration-fast) var(--ease-in-out);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.link-hover:hover {
+  transform: translateX(4px);
+}
+
+/* Scroll to Top Button */
+.get-template {
+  position: fixed;
+  bottom: var(--spacing-2xl);
+  right: var(--spacing-2xl);
+  display: none;
+  z-index: 999;
+}
+
+.get-template.show {
+  display: flex;
+}
+
+#scrollToTopBtn {
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-in-out);
+}
+
+#scrollToTopBtn:hover {
+  transform: scale(1.1);
+}
